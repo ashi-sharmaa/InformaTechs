@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.topnav {
+  background-color: #FCE4D8;
+  overflow: hidden; 
+}
+
+.topnav a {
+  float: left;
+  color: #f75590;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #fbd;
+  color: #f75590;
+}
+
+.topnav a.active {
+  background-color: #fbd87f;
+  color: white;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.button-links {
+  flex: 1;
+  text-align: right;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.button-links li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.resource-button {
+  font-size: 1rem;
+  padding: 20px 20px; 
+  border: none;
+  border-radius: 10px;
+  color: #f75590;
+  margin-top: 20px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+  background-color: #FCE4D8;
+}
+
+
+.resource-button a {
+  position: relative;
+  color: #f75590;
+  text-decoration: none;
+
+}
+
+
+
+.main .maincontainer {
+  background-color: #99eebb;
+  
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: 3fr 100px;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  padding-top: 400px;
+  height: 90vh;
+  background-color: #99eebb;
+  z-index: 1;
+  width: auto; 
+  padding: 0 50px;
+  
+}
+
+.xx{ /*WHAT IS COMPUTER SCIENCE*/
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.yy { /*computer science is.....*/
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.maincontent {
+  margin-top: 1rem;
+  color: white;
+  
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5f8fe;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #b5f8fe;
+  /* border-radius: 10px; */
+  width: auto; 
+  padding: 0.25em;
+  cursor: pointer;
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+}
+
+
+
+img {
+  object-fit: cover;
+  transition: all 0.3s ease;
+  width: 150px;
+  height: 150px;
+}
+
+
+img:hover {
+  opacity: 1;
+  z-index: 1;
+  box-shadow: 1em 1em 1em #0004;
+  transition: all 0.3s ease;
+  filter: sepia(0%) hue-rotate(0deg);
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  transform: scale(1.1);
+}
+
+figcaption { 
+  text-align: center;
+  max-width: 150px;
+  word-wrap: break word;
+  background-color: #99eebb;
+  padding: 10%;
+  color: black;
+
+}
+
