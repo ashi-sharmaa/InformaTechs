@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  
+}
+
+body{
+  background-color:  #a9edff;
+}
+
+h3{
+  justify-content: center;
+  border: 4px solid #fbd87f; 
+  color: #f75590;
+  background-color: #fce4d8;
+  border-radius: 10px;
+  padding: 10px; 
+  font-family: 'Russo One', sans-serif;
+  font-weight: lighter;
+}
+
+p{
+  background-color: #99eebb;
+  padding: 10px; 
+  border-radius: 10px; 
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.companies{
+  display: flex;
+}
+
+
+.topnav {
+  background-color: #FCE4D8;
+  overflow: hidden; 
+}
+
+.topnav a {
+  float: left;
+  color: #f75590;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #fbd;
+  color: #f75590;
+}
+
+.topnav a.active {
+  background-color: #fbd87f;
+  color: white;
+}
+
+.button-links {
+  /*text inside the buttons*/
+  flex: 1;
+  text-align: right;
+}
+
+.button-links li {
+/*this is for the actual embedded alignment*/
+  display: inline-block;
+  margin: 5px;
+}
+
